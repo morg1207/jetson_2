@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['palet']
+
+roboflow:
+  workspace: combuster
+  project: palet-detection-hvh3n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/combuster/palet-detection-hvh3n/dataset/1
